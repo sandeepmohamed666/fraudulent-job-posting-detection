@@ -45,7 +45,7 @@ git remote set-url origin https://github.com/sandeepmohamed666/fraudulent-job-po
 git push -u -f origin main
 
 git add .
-git commit -m "Exam"
+git commit -m "Private work"
 git push origin main
 
 git add -f D:\ClimateGuardAI\runtim
