@@ -39,9 +39,9 @@ git config --global user.name  "sandeepmohamed666"
 git config --global user.email  "sandeepmohamed666@gmail.com"
 git init
 git add *
-git commit -m "Exam"
+git commit -m "Private work"
 git branch -M main
-git remote set-url origin https://github.com/sandeepmohamed666/xxxxxxxxxxxxxxxx.git
+git remote set-url origin https://github.com/sandeepmohamed666/fraudulent-job-posting-detection.git
 git push -u -f origin main
 
 git add .
