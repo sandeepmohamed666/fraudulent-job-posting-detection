@@ -1,0 +1,117 @@
+cmd        
+cd Current Location Address            
+git clone https://github.com/sandeepmohamed666/DSAB9.git
+code .   
+Ctrl + `
+
+
+python -m venv D:\Home-ICTAK\Auto-mpg-Reloaded\.venv 
+python -m venv .venv
+.venv\Scripts\Activate.ps1                (.\.venv\scripts\activate.ps1)
+
+get-executionpolicy   
+set-executionpolicy              
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+pip freeze > requirements.txt  
+pip install -r requirements.txt                        
+
+git config --global user.name  "sandeepmohamed666"     
+git config --global user.email  "sandeepmohamed666@gmail.com"
+
+git config --global --replace-all user.name "sandeepmohamed666"
+git config --global --replace-all user.email "sandeepmohamed666@gmail.com"
+
+Check
+------
+git config --global --list                                        ----Check(current configuration)
+git config --global user.name                                     ----Check(current configuration)
+git config --global user.email                                     ----Check(current configuration)
+
+git remote -v                     ----Check(current Repository)
+git status                        ----Check(new commit)
+
+pip list
+
+Configure
+---------
+git config --global user.name  "sandeepmohamed666"     
+git config --global user.email  "sandeepmohamed666@gmail.com"
+git init
+git add *
+git commit -m "Exam"
+git branch -M main
+git remote set-url origin https://github.com/sandeepmohamed666/xxxxxxxxxxxxxxxx.git
+git push -u -f origin main
+
+git add .
+git commit -m "Exam"
+git push origin main
+
+git add -f D:\ClimateGuardAI\runtim
+git commit -m "Exam"
+git push origin main
+
+
+git remote set-url origin https://github.com/sandeepmohamed666/Requirements.git
+git push -u origin main     
+
+git pull --rebase origin main
+         
+
+python.exe -m pip install --upgrade pip    (Upgrade pip)
+python --version
+
+
+
+Streamlit
+---------
+import streamlit as st
+st.title("Hello Streamlit")
+
+
+Install
+# pip install streamlit numpy scikit-learn
+Run
+# streamlit run app.py
+# python -m streamlit run app.py
+
+
+Fastapi
+-------
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "Hello FastAPI"}
+
+
+
+Run:
+uvicorn main:app --reload 
+fastapi dev main.py
+Install
+# python -m pip install --upgrade pip
+# pip install "fastapi[standard]"
+
+
+Flask
+-----
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello Flask"
+
+
+
+# pip install flask
+
+Run:
+# flask run --port 8000
+app.run()
+
